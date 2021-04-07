@@ -348,7 +348,14 @@ div.footer h6 {
   font-size: 1rem;
   padding-top: 6rem;
 }
-
+a.github {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #e44c65;
+  font-size: 1rem;
+  font-weight: 700;
+}
 @media all and (max-width: 768px) {
   div.nav-bar,
   div.hero-section,
@@ -515,5 +522,8 @@ div.footer h6 {
   div.footer h6 {
     font-size: 5vw;
     padding-top: 20vw;
+  }
+  a.github {
+    font-size: 5vw;
   }
 }
